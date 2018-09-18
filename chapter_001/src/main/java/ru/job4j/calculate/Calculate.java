@@ -7,8 +7,8 @@ package ru.job4j.calculate;
 
 public class Calculate {
 	/**
-	@Method main;
-	@Param args строка;
+	main;
+	@param args строка;
 	*/
 		
 	public static void main (String [] args){
