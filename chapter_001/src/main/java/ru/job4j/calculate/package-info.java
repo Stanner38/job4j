@@ -1,5 +1,5 @@
 /**
-* Package для вычислительных заданий.
+* Package for calculations.
 *
 * @author Me
 * @version 1
