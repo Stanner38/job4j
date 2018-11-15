@@ -1,5 +1,5 @@
 /**
-* Package for PointTest.
+* Package for conditionTest.
 *
 * @author Stanis
 * @version 1
