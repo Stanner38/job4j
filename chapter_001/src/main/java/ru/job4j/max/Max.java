@@ -9,7 +9,7 @@ public class Max {
     /**
 	method "max" calculates max of two numbers.
 	*/   
-    public int max(int first, int second){
+    public int max(int first, int second) {
 		return (first > second ? first : second);
 	}
 }
