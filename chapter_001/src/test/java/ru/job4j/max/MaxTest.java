@@ -30,5 +30,25 @@ import static org.junit.Assert.assertThat;
 		int result = maxim.max(1, 1);
 		assertThat(result, is(1));
 	}
+	@Test
+	public void whenFirstIsTheBiggestOfThree() {
+		Max maxim = new Max();
+		int result = maxim.max(3, 2, 1);
+		assertThat(result, is(3));
+	}
+
+	@Test
+	public void whenSecondIsTheBiggestOfThree() {
+		Max maxim = new Max();
+		int result = maxim.max(1, 3, 2);
+		assertThat(result, is(3));
+	}
+
+	@Test
+	public void whenThirdIsTheBiggestOfThree() {
+		Max maxim = new Max();
+		int result = maxim.max(1, 2, 3);
+		assertThat(result, is(3));
+	}
 }
  
