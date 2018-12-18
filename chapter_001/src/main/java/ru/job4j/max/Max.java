@@ -13,8 +13,7 @@ public class Max {
 		return (first > second ? first : second);
 	}
 	public int max(int first, int second, int third) {
-		int temp = this.max(first, second);
-		temp = this.max(temp, third);
+		int temp = this.max(this.max(first, second), third);
 		return temp;
 	}
 }
