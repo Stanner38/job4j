@@ -4,7 +4,11 @@ import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
-
+/**
+ * @author Stas Syrgashev.
+ * @version 1.
+ * @since 15.01.2019.
+ */
     public class FactorialTest {
         @Test
         public void whenCalculateFactorialForFiveThenOneHundreedTwenty() {
