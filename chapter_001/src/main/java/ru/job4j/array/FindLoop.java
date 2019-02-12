@@ -1,5 +1,7 @@
 package ru.job4j.array;
-
+/**
+ * Простой поиск элемента в массиве перебором.
+ */
 public class FindLoop {
     public int indexOf(int[] data, int el) {
         int rst = -1; // если элемента нет в массиве, то возвращаем -1.
